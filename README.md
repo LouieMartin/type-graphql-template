@@ -8,10 +8,11 @@
 yarn install
 ```
 
-## Start
+## Production
 
 ```
-yarn start
+yarn run build
+node dist/index.js # Optional: To run the server
 ```
 
 ## Development
