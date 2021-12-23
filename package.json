@@ -1,8 +1,11 @@
 {
   "name": "type-graphql-template",
   "version": "1.0.0",
-  "description": "",
-  "repository": "",
+  "description": "A Type GraphQL template to help start your app!",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LouieMartin/type-graphql-template.git"
+  },
   "main": "dist/index.js",
   "author": "DoNotHaveAnIdeaForAUsername <louie.decierdo@gmail.com>",
   "license": "MIT",
