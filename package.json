@@ -1,7 +1,10 @@
 {
   "name": "type-graphql-template",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
+  "repository": "",
+  "main": "dist/index.js",
+  "author": "DoNotHaveAnIdeaForAUsername <louie.decierdo@gmail.com>",
   "license": "MIT",
   "scripts": {
     "build": "tsc",
