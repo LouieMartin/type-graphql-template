@@ -4,16 +4,16 @@ import { createSchema } from './resolvers';
 import express from 'express';
 
 (async () => {
-    const PORT = process.env.PORT || 3000;
+  const PORT = process.env.PORT || 3000;
 
-    const server = new ApolloServer({
-        schema: await createSchema(),
-    });
+  const server = new ApolloServer({
+    schema: await createSchema(),
+  });
 
-    const app = express();
+  const app = express();
 
-    await server.start();
-    server.applyMiddleware({ app });
+  await server.start();
+  server.applyMiddleware({ app });
 
-    app.listen(PORT, () => console.log(`Server listening on port ${PORT}`));
+  app.listen(PORT, () => console.log(`Server listening on port ${PORT}`));
 })();

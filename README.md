@@ -1,22 +1,23 @@
 # Type GraphQL Template
 
-> Run `yarn dev` and it will open a server [here](http://localhost:3000).
+## Setup
 
-## Project setup
+In order to setup this template run this command `yarn install`
 
-```
-yarn install
-```
+## Available Scripts
 
-## Production
+### yarn run dev
 
-```
-yarn run build
-node dist/index.js # Optional: To run the server
-```
+Runs `src/index.ts` with nodemon.
 
-## Development
+### yarn run build
 
-```
-yarn dev
-```
+Makes a static copy of this program in the directory `build/` with TSC.
+
+### yarn run format
+
+Formats all files with Prettier.
+
+### yarn run lint
+
+Makes sure all the files are formatted.
