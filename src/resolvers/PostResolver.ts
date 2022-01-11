@@ -6,7 +6,7 @@ import axios from 'axios';
 @Resolver()
 export class PostResolver {
   @Query(() => [PostType])
-  async users() {
+  async posts() {
     var data: PostType[] | null = null;
     var error: string | null = null;
     await axios
